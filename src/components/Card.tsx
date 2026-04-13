@@ -11,3 +11,5 @@ export const Card = styled.div`
     background: #fff;
     gap: 12px;
 `
+
+

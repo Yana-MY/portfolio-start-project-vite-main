@@ -1,49 +1,44 @@
 import './App.css'
-import styled, {createGlobalStyle} from "styled-components";
-import myImage from './assets/images/image.jpg'
-import {Card} from "./components/Card/Card.tsx";
-import {Button} from "./components/Button/Button.tsx";
-import {Title} from "./components/Title/Title.tsx";
-
-
-
-
+import {createGlobalStyle} from "styled-components";
+import {Card} from "./components/Card.tsx";
+import {Button, ButtonContainer} from "./components/Button.tsx";
+import {Title} from "./components/Title.tsx";
+import {Image} from "./components/Image.tsx";
+import {AppWrapper, FlexContainer, TextWraper} from "./components/Wrappers.tsx";
 
 
 function App() {
     return (
-        <div className="App">
-            <div className="container">
+        <AppWrapper>
                 <Card>
-                    <div className="flex-container">
-                        <img src={myImage} alt={"Картинка"} className="my-image"/>
-                        <div className="text-wraper">
+                    <FlexContainer>
+                        <Image></Image>
+                        <TextWraper>
                             <Title>Headline</Title>
                             <span className="all-text" style={{
-                                fontFamily: 'Inter, sans-serif', fontSize: '12px', lineHeight: '1.66667',
-                                color: '#abb3ba', maxWidth: '260px'
+                                fontFamily: 'Inter, sans-serif',
+                                fontSize: '12px',
+                                lineHeight: '1.66667',
+                                color: '#abb3ba',
+                                maxWidth: '260px'
                             }}>
                             Faucibus.Faucibus.Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.
                             </span>
-                        </div>
-                        <div className="button-container">
+                        </TextWraper>
+                        <ButtonContainer>
                             <Button as="a">See more</Button>
                             <Button>Save</Button>
-                        </div>
-                    </div>
+                        </ButtonContainer>
+                    </FlexContainer>
                 </Card>
-            </div>
-        </div>
+        </AppWrapper>
     )
 }
 
 export default App
 
 
-const Image = styled.img`
-    return (
-    
-`
+
 
 export const GlobalStyles = createGlobalStyle`
     *,

@@ -21,3 +21,10 @@ export const Button = styled.button`
         color: #fff;
     }
 `
+
+export const ButtonContainer = styled.div`
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+
+`
