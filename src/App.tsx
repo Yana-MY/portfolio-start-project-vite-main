@@ -21,66 +21,6 @@ function App() {
                         </ButtonContainer>
                     </FlexContainer>
                 </Card>
-                <Card>
-                    <FlexContainer>
-                        <Image/>
-                        <Texts/>
-                        <ButtonContainer>
-                            <Button as="a">See more</Button>
-                            <Button>Save</Button>
-                        </ButtonContainer>
-                    </FlexContainer>
-                </Card>
-                <Card>
-                    <FlexContainer>
-                        <Image/>
-                        <Texts/>
-                        <ButtonContainer>
-                            <Button as="a">See more</Button>
-                            <Button>Save</Button>
-                        </ButtonContainer>
-                    </FlexContainer>
-                </Card>
-                <Card>
-                    <FlexContainer>
-                        <Image/>
-                        <Texts/>
-                        <ButtonContainer>
-                            <Button as="a">See more</Button>
-                            <Button>Save</Button>
-                        </ButtonContainer>
-                    </FlexContainer>
-                </Card>
-                <Card>
-                    <FlexContainer>
-                        <Image/>
-                        <Texts/>
-                        <ButtonContainer>
-                            <Button as="a">See more</Button>
-                            <Button>Save</Button>
-                        </ButtonContainer>
-                    </FlexContainer>
-                </Card>
-                <Card>
-                    <FlexContainer>
-                        <Image/>
-                        <Texts/>
-                        <ButtonContainer>
-                            <Button as="a">See more</Button>
-                            <Button>Save</Button>
-                        </ButtonContainer>
-                    </FlexContainer>
-                </Card>
-                <Card>
-                    <FlexContainer>
-                        <Image/>
-                        <Texts/>
-                        <ButtonContainer>
-                            <Button as="a">See more</Button>
-                            <Button>Save</Button>
-                        </ButtonContainer>
-                    </FlexContainer>
-                </Card>
             </AppWrapper>
         </div>
 

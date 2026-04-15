@@ -18,6 +18,7 @@ export const Texts = () => {
     text-align: left;
     gap: 20px;
     margin-left: 10px;
+    max-width: 260px;
 `
 
 const Title = styled.h1`
@@ -33,5 +34,5 @@ const Span = styled.span`
     font-size: 12px;
     line-height: 1.66667;
     color: #abb3ba;
-    max-width: 260px;
+    
 `
