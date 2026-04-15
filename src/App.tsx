@@ -90,8 +90,6 @@ function App() {
 export default App
 
 
-
-
 export const GlobalStyles = createGlobalStyle`
     *,
     *::before,

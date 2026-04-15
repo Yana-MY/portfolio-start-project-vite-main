@@ -7,8 +7,7 @@ export const AppWrapper=styled.div`
     align-items: center;
     gap: 20px;
     min-height: 100vh;
-    
-
+    min-width: 375px;
 `
 
 export const FlexContainer = styled.div`

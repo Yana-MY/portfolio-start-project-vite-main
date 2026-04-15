@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 export const Texts = () => {
     return (
         <StyledTexts>
@@ -13,7 +11,6 @@ export const Texts = () => {
     );
 };
 
-export default Texts;
 
  const StyledTexts = styled.div`
     display: flex;
@@ -28,7 +25,7 @@ const Title = styled.h1`
     font-weight: 700;
     font-size: 16px;
     color: #000;
-    text-align: left ;
+    text-align: left;
 `
 
 const Span = styled.span`
@@ -36,5 +33,5 @@ const Span = styled.span`
     font-size: 12px;
     line-height: 1.66667;
     color: #abb3ba;
-    max-width: 260px
+    max-width: 260px;
 `

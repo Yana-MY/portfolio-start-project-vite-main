@@ -11,7 +11,7 @@ export const Image = styled.img.attrs({
     object-fit: cover;
     width: 100%;
     height: 170px;
-    //margin: 10px 10px;
+    overflow: hidden;
 `
 
 
