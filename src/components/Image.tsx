@@ -8,9 +8,10 @@ export const Image = styled.img.attrs({
 })`
     border: 1px solid #000;
     border-radius: 10px;
-    width: 280px;
+    object-fit: cover;
+    width: 100%;
     height: 170px;
-    margin: 10px 10px;
+    //margin: 10px 10px;
 `
 
 

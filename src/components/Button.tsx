@@ -25,6 +25,6 @@ export const Button = styled.button`
 export const ButtonContainer = styled.div`
     display: flex;
     gap: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 `

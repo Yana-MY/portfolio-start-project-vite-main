@@ -2,9 +2,12 @@ import styled from "styled-components";
 
 export const AppWrapper=styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 100vh
+    gap: 20px;
+    min-height: 100vh;
+    
 
 `
 
@@ -16,11 +19,5 @@ export const FlexContainer = styled.div`
     margin-bottom: 22px;
 `
 
-export const TextWraper = styled.div`
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 20px;
-    margin-left: 20px;
-`
+
 
