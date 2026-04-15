@@ -22,7 +22,6 @@ export const Texts = () => {
 `
 
 const Title = styled.h1`
-    font-family: Inter, sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #000;
@@ -30,7 +29,6 @@ const Title = styled.h1`
 `
 
 const Span = styled.span`
-    font-family: Inter, sans-serif;
     font-size: 12px;
     line-height: 1.66667;
     color: #abb3ba;
